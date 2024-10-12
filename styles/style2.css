@@ -183,3 +183,13 @@ body {
 .hot-text{
     color: rgb(229, 84, 115);
 }
+
+/* Instagram Section Styles */
+.instagram-section{
+    margin-top: 130px;
+    margin-bottom: 130px ;
+}
+.instagram-section .flowers-container{
+    display: flex;
+    gap: 24px;
+}
