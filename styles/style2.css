@@ -9,7 +9,7 @@
 body {
     max-width: 1920px;
     font-family: "Lato", sans-serif;
-    /* border: 8px solid mediumseagreen; */
+    border: 8px solid mediumseagreen;
 }
 
 /* Common Styles */
@@ -31,6 +31,11 @@ body {
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
+}
+
+.btn-bg {
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
 }
 
 /* Banner Section Styles */
@@ -56,8 +61,6 @@ body {
 .btn-shop-now {
     width: 177px;
     height: 64px;
-    border-radius: 8px;
-    background: rgb(229, 84, 115);
 }
 
 .banner-text-part p {
@@ -71,7 +74,9 @@ body {
 
 /* Our Featured Flowers Section Styles */
 .featured-flower-section {
+    /* margin: 170px 0px 130px 0px; */
     margin-top: 170px;
+    margin-bottom: 130px;
 }
 
 .section-head {
@@ -143,6 +148,38 @@ body {
     text-align: center;
 }
 
-.our-featured-section-container .feature-image{
+.our-featured-section-container .feature-image {
     margin: 24px 0;
+}
+
+/* Hot Deal Section Styles */
+.hot-deal-section {
+    background: rgba(229, 84, 115, 0.05);
+    border-radius: 8px;
+}
+
+.hot-deal-section-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 175px;
+    align-items: center;
+}
+
+.hot-deal-section .text-part {
+    max-width: 594px;
+    text-align: center;
+}
+
+.hot-deal-section .image-part {
+    max-width: 318px;
+    height: 420px;
+}
+
+.btn-signup {
+    width: 155px;
+    height: 64px;
+}
+
+.hot-text{
+    color: rgb(229, 84, 115);
 }
