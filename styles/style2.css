@@ -101,6 +101,8 @@ body {
 .featured-flowers-container {
     display: flex;
     gap: 24px;
+    text-align: center;
+    align-items: flex-start;
 }
 
 .flower-card {
