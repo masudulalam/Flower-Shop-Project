@@ -9,14 +9,14 @@
 body {
     max-width: 1920px;
     font-family: "Lato", sans-serif;
-    border: 8px solid mediumseagreen;
+    /* border: 8px solid mediumseagreen; */
 }
 
 /* Common Styles */
 .container {
     max-width: 1440px;
     margin: 0 auto;
-    border: 2px solid mediumseagreen;
+    /* border: 2px solid mediumseagreen; */
 }
 
 .text-normal {
@@ -198,15 +198,15 @@ body {
 /* Get The Latest Deals Styles Section */
 .get-the-latest-deal-section {
     background-image: url("../Flower Asset/Rectangle 9.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 122px 287px;
+    background-size: cover;
+    padding-top: 122px;
 }
 
 /* Footer Section Styles */
 .footer-section {
     background: rgb(17, 16, 16);
     padding: 128px 0;
+    margin-top: 130px;
 }
 
 .footer-container{
