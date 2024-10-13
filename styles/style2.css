@@ -200,6 +200,26 @@ body {
     background-image: url("../Flower Asset/Rectangle 9.png");
     background-size: cover;
     padding-top: 122px;
+    padding-bottom: 122px;
+}
+
+input[type="email"] {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 0 20px
+}
+
+input[type="submit"] {
+    width: 150px;
+    height: 64px;
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px
 }
 
 /* Footer Section Styles */
@@ -209,7 +229,7 @@ body {
     margin-top: 130px;
 }
 
-.footer-container{
+.footer-container {
     text-align: center;
 }
 
@@ -220,7 +240,7 @@ body {
     color: rgb(255, 255, 255);
 }
 
-.flower-text{
+.flower-text {
     color: rgb(229, 84, 115);
 }
 
@@ -228,7 +248,7 @@ body {
     color: rgba(255, 255, 255, 0.9);
 }
 
-.foot-para{
+.foot-para {
     margin: 24px 0 32px 0;
 }
 
