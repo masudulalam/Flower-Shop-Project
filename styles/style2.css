@@ -180,16 +180,62 @@ body {
     height: 64px;
 }
 
-.hot-text{
+.hot-text {
     color: rgb(229, 84, 115);
 }
 
 /* Instagram Section Styles */
-.instagram-section{
+.instagram-section {
     margin-top: 130px;
-    margin-bottom: 130px ;
+    margin-bottom: 130px;
 }
-.instagram-section .flowers-container{
+
+.instagram-section .flowers-container {
     display: flex;
     gap: 24px;
+}
+
+/* Get The Latest Deals Styles Section */
+.get-the-latest-deal-section {
+    background-image: url("../Flower Asset/Rectangle 9.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 122px 287px;
+}
+
+/* Footer Section Styles */
+.footer-section {
+    background: rgb(17, 16, 16);
+    padding: 128px 0;
+}
+
+.footer-container{
+    text-align: center;
+}
+
+.footer-header2 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 58px;
+    color: rgb(255, 255, 255);
+}
+
+.flower-text{
+    color: rgb(229, 84, 115);
+}
+
+.footer-txt-color {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.foot-para{
+    margin: 24px 0 32px 0;
+}
+
+.small-txt {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    /* text-align: center; */
 }
